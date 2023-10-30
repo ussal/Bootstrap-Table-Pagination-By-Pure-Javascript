@@ -39,4 +39,8 @@ let bootstrapTableObject={
 bootstrapTable(bootstrapTableObject,1);
 </script>
 ```
+Give an Id to the element you want to add the table to and write that Id name to the divId value in bootstrapTableObject.
+```html
+<div id="firstTable"></div>
+```
 Note:You do not need to enter additional information for the table titles, the table titles are taken from the names in the Json Objects.
